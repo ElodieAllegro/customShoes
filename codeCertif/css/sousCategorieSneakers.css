@@ -1,0 +1,275 @@
+
+/* header ------------------------------- */
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.headerTop{
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: nowrap;  
+}
+
+#logo{
+    margin: 10px 20px 10px 550px;
+    width: 126px;
+    height: 118px;
+   
+}
+#rondPanier{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 1430px;
+    top: 15px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+#price{
+    position: absolute;
+    width: 68px;
+    height: 21px;
+    left: 1466px;
+    top: 65px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;   
+}
+   
+#total{
+    position: absolute;
+    width: 72px;
+    height: 32px;
+    left: 1464px;
+    top: 15px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+#panier{
+    width: 168px;
+    height: 103.92px;
+    margin: 15px 10px 10px 400px;
+}
+#trait{
+    width: 100%;
+  }  
+    
+.navBar{
+   
+    text-decoration: none;
+}
+ul{
+    list-style: none;   
+    
+}
+.menuList-unstyled li{
+    display: inline;
+    margin-left: 170px;
+    padding-bottom: 100px;
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+    
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+#banner{
+    margin: 20px 150px;
+}
+
+/* main--------------------------------- */
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.chemins {
+    /* padding: 20px 16px; */
+    margin-top: 100px;
+    list-style: none;
+    background-color: #ffffff;
+  }
+  /* Display list items side by side */
+  ul.chemins  li {
+    display: inline;
+    font-size: 22px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.chemins  li+li:before {
+    padding: 0px;
+    color: rgb(12, 12, 12);
+    
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.chemins  li a {
+    color: #18c309;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.chemins  li a:hover {
+    color: #080707;
+    text-decoration: underline;
+  }
+  .marqueSneakers{
+    
+    height: 320px;
+    background-color: #D9D9D9;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);     
+    margin: 0px 20px 100px 20px ;
+  }
+  .marqueSneakers img{
+    width: 280px;
+    height: 149.33px;
+    margin: 50px 500px 0px 610px;
+  }
+.titre{
+    display: flex;
+   text-align: center;
+}
+
+h1{
+    text-align: center; 
+    margin-top: 60px 0px 60px 0px; 
+    text-decoration-line: underline;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    font-style: oblique;
+    color: #48DA15;
+    -webkit-text-stroke:black ;
+    
+   
+}
+.carre{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    /* margin :100px 20px 100px 320px; */
+    margin: 0px 10px 200px 0px;
+}
+#carre1{
+
+    width: 303px;
+    height: 283px;
+    background-color: #D9D9D9;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+#carre1:hover{
+
+    width: 303px;
+    height: 283px;
+    background-color: #33ed16;
+    background: #09f344;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+#carre1 img{
+    width: 207px;
+    height: 189px;
+    margin: 40px 40px ;
+}
+#carre2:hover{
+
+    width: 303px;
+    height: 283px;
+    background-color: #33ed16;
+    background: #09f344;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+#carre2{
+    width: 303px;
+    height: 283px;
+    background-color: #D9D9D9;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+
+#carre2 img{
+    width: 300px;
+    height: 153.36px;
+    margin: 70px 10px 40px 20px;
+}
+#carre3{
+    width: 303px;
+    height: 283px;
+    background-color: #D9D9D9;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#carre3:hover{
+
+    width: 303px;
+    height: 283px;
+    background-color: #33ed16;
+    background: #09f344;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+#carre3 img{
+    width: 300px;
+    height: 153.36px;
+    margin: 70px 10px 40px 20px;
+}
+
+
+
+main #trait{
+    margin-top: 80px;
+    
+}
+/* footer------------------------ */
+
+footer{
+    width: 100%;
+   display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footerList1{
+    display: flex;
+    flex-direction: column;   
+}
+.footerList2{
+    display: flex;
+    flex-direction: column;   
+}
+.reseaux{
+    display: flex;
+    flex-direction: row;   
+}
+.reseaux img{
+    width: 55px;
+    height: 55px;
+    margin-top: 100px;
+    padding: 10px;
+    }
