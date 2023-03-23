@@ -1,204 +1,17 @@
 
-/* header */
-
-body{
-    margin: 0%;
-    padding: 0%;
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.headerTop{
-    width: 100%;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   flex-wrap: nowrap;  
-}
-
-#logo{
-    margin: 10px 20px 10px 550px;
-    width: 126px;
-    height: 118px;
-    /* border: 1px solid black; */
-}
-/* ici commence le panier--------------------------------------- */
-#rondPanier{
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 37px;
-    height: 37px;
-    left: 1430px;
-    top: 15px;
-    
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 50%;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-}
-#price{
-    position: absolute;
-    width: 68px;
-    height: 21px;
-    left: 1466px;
-    top: 65px;
-    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    color: #000000;   
-}
-   
-#total{
-    position: absolute;
-    width: 72px;
-    height: 32px;
-    left: 1464px;
-    top: 15px;
-    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    color: #000000;
-}
-
-#panier{
-    width: 168px;
-    height: 103.92px;
-    margin: 15px 10px 10px 400px;
-}
-
-#trait{
-    width: 100%;
-  }  
-    
-
-ul{
-    list-style: none;   
-    
-}
-.menuList-unstyled li{
-    display: inline;
-    margin-left: 170px;
-    padding-bottom: 100px;
-    font-size: 24px;
-    line-height: 32px;
-    color: black;
-    
-}
-li a {
-   
-    color: black;
-    text-decoration: none;
-}
-/* #banner-------------------------------------{
+#banner{
     
         width: 85%;
         height: 555.3px;;
         background-image: url(/codeCertif/image/banniere.png);
-    
-margin: 20px 150px;
-} */
-* {
-    box-sizing: border-box;
-  }
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    position: relative;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px 150px;
+}
+
 
 /* main --------------------------- -------------------------------------------*/
-main{
-    display: flex;
-    flex-direction: column;
-}
+/*  */
 .titre{
     display: flex;
    text-align: center;
@@ -351,7 +164,8 @@ h3{
     color: #000000;
 }
 .submit{
-    margin-left: 700px;
+    margin:0px 0px 20px 700px;
+
     width: 257px;
     height: 56px;
     background: #000000;
@@ -361,15 +175,15 @@ h3{
     color: #FFFFFF;
 }
 main #trait{
-    margin-top: 80px;
-    
+    margin-top: 80px;   
 }
 /* footer---------------------------------- */
 footer{
     width: 100%;
-   display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
+   
 }
 .footerList1{
     display: flex;
@@ -389,7 +203,11 @@ footer{
     margin-top: 100px;
     padding: 10px;
     }
-
+footer ul {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+}
 
     @media screen and (min-width: 320px) and (max-width: 480px) {
       
@@ -406,15 +224,8 @@ footer{
       
     }
 
-    /* @media screen and (min-width: 1025px) and (max-width: 1600px) {
-        #banner{
-              
-            
-            
-        }
-       
-    } */
+   
 
-
+    }
 
      

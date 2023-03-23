@@ -1,0 +1,203 @@
+/* header ------------------------------- */
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+}
+.headerTop{
+    width: 100%;
+    /* height: 60vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;  
+}
+
+#logo{
+    margin: 10px 20px 10px 550px;
+    width: 126px;
+    height: 118px;
+    
+}
+#rondPanier{
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 1430px;
+    top: 15px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+#price{
+    position: absolute;
+    width: 68px;
+    height: 21px;
+    left: 1466px;
+    top: 65px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;   
+}
+
+#total{
+    position: absolute;
+    width: 72px;
+    height: 32px;
+    left: 1464px;
+    top: 15px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+#panier{
+    width: 168px;
+    height: 103.92px;
+    margin: 15px 10px 10px 400px;
+}
+#trait{
+    width: 100%;
+}  
+
+.navBar{
+    
+    text-decoration: none;
+}
+ul{
+    list-style: none;   
+    
+}
+.menuList-unstyled li{
+    display: inline;
+    margin-left: 170px;
+    padding-bottom: 100px;
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+    
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+#banner{
+    margin: 20px 150px;
+}
+
+/* main--------------------------------- */
+
+/* main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    
+} */
+
+   /* Style the list */
+   .chemins {
+    margin: 50px;
+    list-style: none;
+    background-color: #ffffff;
+    
+  }
+/* Display list items side by side */
+  ul.chemins  li {
+    display: inline;
+    font-size: 22px;
+  } 
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.chemins  li+li:before {
+    
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.chemins  li a {
+    color: #18c309;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.chemins  li a:hover {
+    color: #030303;
+    text-decoration: underline;
+  }
+  /* ici commence le main */
+
+  main #trait{
+    margin-top: 100px;
+}
+
+  /* footer---------------------------------- */
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+      
+}
+.footerList1{
+    display: flex;
+    flex-direction: column;  
+    margin-top: 10px; 
+}
+.footerList2{
+    display: flex;
+    flex-direction: column;   
+    margin-top: 10px; 
+}
+.reseaux{
+    display: flex;
+    flex-direction: row;   
+}
+.reseaux img{
+    width: 55px;
+    height: 55px;
+    margin-top: 100px;
+    padding: 10px;
+    }
+footer ul {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+}
+main #trait{
+    margin-top: 100px;    
+}
+
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+      
+       
+        
+    }
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+       
+    } 
+        
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+   
+
+    }
+
+     

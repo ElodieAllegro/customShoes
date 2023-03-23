@@ -1,0 +1,60 @@
+
+/* main commence ici  */
+.card{
+    width: 1337px;
+    height:667px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin-left: 6%;
+}
+.column{
+    width:10%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    
+}
+.miniature{
+width: 70%;
+height: 90px;
+margin: 3px;
+background-color: rgb(36, 242, 17);
+/* border: 1px solid black; */
+}
+
+#bigImg{
+    width:650px; 
+    height: auto;
+    background-color: rgb(36, 242, 17);
+    /* border: 1px solid black; */
+}
+#trait2{
+    width: 100%;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+      
+       
+        
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+   
+} 
+    
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+
+}

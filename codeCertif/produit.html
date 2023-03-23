@@ -3,149 +3,92 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <title>Custom sneakers</title>
-<link rel="stylesheet" href="/code certif/style.css">
+<link rel="stylesheet" href="/codeCertif/css/produit.css">
+<link rel="stylesheet" href="/codeCertif/css/modele.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     
 <!-- header------------------ -->
 
-<header>
-
-    <div class="headerTop">
-        <a href="/code certif/index.html">
-            <img id="logo"  src="../code certif/image/logo.png" >
-        </a>
-        <a href="">
-            <img id="panier" src="../code certif/image/Component 2.png">
-        </a>  
-    </div>
-        <img id="trait" src="/code certif/image/Line 1.png">
-    <div class="headerBottom">
-       <nav class="navBar">
-        <ul class="menuList-unstyled">
-            <li><a href="/code certif/sneaker.html">Sneakers</a></li>
-            <li><a href="/code certif/tshirt.html">TeeShirt</a></li>
-            <li><a href="/code certif/casquette.html">Casquette</a></li>
-            <li><a href="/code certif/realisation.html">Réalisations</a></li>
-            <li><a href="/code certif/mon compte.html">Mon compte</a></li>
-            <li><a href="/code certif/contact.html">Contact</a></li>
-        </ul>
-       </nav>
-
-    <img id="banner" src="../code certif/image/Component 3.png" >   
+<header class="headerTop">
+    <a href="/codeCertif/index.html">
+        <img id="logo"  src="./image/logo.png" alt="image du logo"></a>
+    <div class="panierAssemblé"> 
+    <a href="./image/panier1.svg">
+        <img id="panier" src="./image/panier1.svg" alt="image du panier">
+    </a>
+    <div id="rondPanier">
+    </div> 
+    <h5 id="total"> Total</h5>
+    <h5 id="price"> ...€</h5>
     </div>
 </header>
+   
+<img id="trait" src="./image/Line.png" alt="ligne de separation ">
+
+<div class="headerBottom">
+    <nav class="navBar">
+        <ul class="menuList-unstyled">
+            <li><a href="./categorieSneakers.html">Sneakers</a></li>
+            <li><a href="./categorieAutre.html">Autres</a></li>
+            <li><a href="./realisation.html">Réalisations</a></li>
+            <li><a href="./monCompte.html">Mon compte</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</div>
 
 <!-- main_______________________ -->
 <main>
-    <div class="titre">
-        <h1>Découvrez notre concept de customisation de sneakers</h1>
-    </div>
-        <h3>Etape 1:  Choisissez une marque de sneaker</h3>
-    <div class="carre">
-            <div id="carre1">
-            <img src="/code certif/image/nike.png" alt="">
-            </div>
-            <div id="carre2">
-            <img src="/code certif/image/adidas.png" alt="">
-            </div>
-            <div id="carre3">
-            <img src="/code certif/image/converse.png" alt="">
-            </div>
-            <div id="carre4">
-                <img src="/code certif/image/vans.png" alt="">
-            </div>
-    </div>
 
+<ul class="chemins">
+    <li><a href="./index.html">Accueil </a></li>
+    <li><a href="./categorieSneakers.html">Sneakers </a></li>
+    <li><a href="/codeCertif/sousCategorieSneakers.html">Marques</a></li>
+    <li><a href="/codeCertif/sousCategorieSneakers.html">produit</a></li>
+</ul>
 
-    <h3>Etape 2: Choisissez une paire de sneaker</h3>
-
-    <div class="carre">
-        <div id="carre5">
-            <img src="/code certif/image/jordan.png" alt="">
-        </div>
-        <div id="carre6">
-        <img src="/code certif/image/nikeAF1Low.png" alt="">
-        </div>
-        <div id="carre7">
-        <img src="/code certif/image/nikeAF1Mid.png" alt="">
-        </div>
-    </div>
-
-
-    <h3>Etape 3: Choisissez votre taille</h3>
-
-    <form class="texte" action="">
+<div class="card">
+<div class="column">
+    <div class="miniature"></div>
+    <div class="miniature"></div>
+    <div class="miniature"></div>
+    <div class="miniature"></div>
+    <div class="miniature"></div>
+    <div class="miniature"></div>
+    <div class="miniature"></div>
     
-        <select id="pointure" name="pointure">
-        <option value="">Choisissez votre taille</option>
-        <option value="Taille 36">taille 36</option>
-        <option value="Taille 37">taille 37</option>
-        <option value="Taille 38">taille 38</option>
-        <option value="Taille 39">taille 39</option>
-        <option value="Taille 40">taille 40</option>
-        <option value="Taille 41">taille 41</option>
-        </select>
-        
-    </form>
-  
+</div>
+<div id="bigImg">
 
-    <h3>Etape 4: Choisissez la couleur de votre paire</h3>
-    <div class="boutton">
-        <input type="button" value="Blanc" class="btn" >
-
-        <input type="button" value="Noir" class="btn">
-    </div>
-
-
-    <h3>Etape 5: Choisissez le motif de votre choix </h3>
-    <div class="pattern">
-        <img src="/code certif/image/Ellipse 26.png" alt="">
-        <img src="/code certif/image/Ellipse 25.png" alt="">
-        <img src="/code certif/image/Ellipse 23.png" alt="">
-        <img src="/code certif/image/Ellipse 22.png" alt="">
-        <img src="/code certif/image/Ellipse 24.png" alt="">
-        <img src="/pattern/burberry.png" alt="">
-    </div>
-    <h3>Etape 5: Choisissez la couleur des lacets </h3>
-    <div class="color">
-        <img src="/code certif/image/Ellipse 20.png" alt="">
-        <img src="/code certif/image/Ellipse 19.png" alt="">
-        <img src="/code certif/image/Ellipse 18.png" alt="">
-        <img src="/code certif/image/Ellipse 17.png" alt="">
-        <img src="/code certif/image/Ellipse 21.png" alt="">
-        <img src="/code certif/image/Ellipse 28.png" alt="">
-    </div>
-    <h3>Etape 3: Choisissez vos accessoires</h3>
-    <input type="text" class="texte">
-    <h3>Etape 8: Ajouter au panier   </h3>
-    <input type="submit" class="submit">
-    <img id="trait" src="/code certif/image/Line 1.png">
-
+</div>
 
 </main>
+<div>
+ <img id="trait2" src="./image/Line.png" alt="ligne de separation ">
+</div>
 
 <!-- footer---------------- -->
 
 <footer>
-    
-    <ul class="footerList1">
-        <li><a href="">Accueil</a></li>
-        <li><a href="">Realisations</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Mon compte</a></li>
-    </ul>
-    <ul class="footerList2">
-        <li><a href="">Conditions générales de ventes</a></li>
-        <li><a href="">Livraison</a></li>
-        <li><a href="">Mentions légales</a></li>
-    </ul>
-    <div class="reseaux">
-        <img src="/code certif/image/image 17.png">
-        <img src="/code certif/image/image 18.png">
-        <img src="/code certif/image/image 19.png">
-    </div>
+
+<ul class="footerList1">
+    <li><a href="./index.html">Accueil</a></li>
+    <li><a href="./realisation.html">Realisations</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+    <li><a href="./monCompte.html">Mon compte</a></li>
+</ul>
+<ul class="footerList2">
+    <li><a href="">Conditions générales de ventes</a></li>
+    <li><a href="">Livraison</a></li>
+    <li><a href="">Mentions légales</a></li>
+</ul>
+<div class="reseaux">
+    <img src="./image/pinterest.png" alt="pinterest">
+    <img src="./image/facebook.png" alt="facebook">
+    <img src="./image/tikTok.png" alt="tik tok">
+</div>
 
 </footer>
 
